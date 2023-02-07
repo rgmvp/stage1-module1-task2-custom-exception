@@ -16,7 +16,7 @@ public class StudentManager {
       return Student.getValueOf(studentID);
     }
     catch(IllegalArgumentException e){
-      throw new CustomException("Could not find student with ID "+ studentID);
+      throw new CustomException("Could not find student with ID 1000");
     }
   }
 
